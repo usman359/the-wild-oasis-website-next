@@ -2,89 +2,77 @@
   "node": {
     "1868c7eef9c028fafb4742080251d93e6d94c0e8": {
       "workers": {
+        "app/account/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!",
         "app/cabins/[cabinId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!",
-        "app/account/reservations/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!",
-        "app/account/reservations/edit/[bookingId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=!",
-        "app/account/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!"
+        "app/account/reservations/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
+        "app/account/page": "action-browser",
         "app/cabins/[cabinId]/page": "action-browser",
-        "app/account/reservations/page": "action-browser",
-        "app/account/reservations/edit/[bookingId]/page": "rsc",
-        "app/account/page": "action-browser"
+        "app/account/reservations/page": "action-browser"
       }
     },
     "2a119cdd2c783e58968207e5b90bd084cfefd68e": {
       "workers": {
+        "app/account/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!",
         "app/cabins/[cabinId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!",
-        "app/account/reservations/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!",
-        "app/account/reservations/edit/[bookingId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=!",
-        "app/account/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!"
+        "app/account/reservations/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
+        "app/account/page": "action-browser",
         "app/cabins/[cabinId]/page": "action-browser",
-        "app/account/reservations/page": "action-browser",
-        "app/account/reservations/edit/[bookingId]/page": "rsc",
-        "app/account/page": "action-browser"
+        "app/account/reservations/page": "action-browser"
       }
     },
     "2bbad67af25ad156e505bc5e270d3466587e32d7": {
       "workers": {
+        "app/account/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!",
         "app/cabins/[cabinId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!",
-        "app/account/reservations/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!",
-        "app/account/reservations/edit/[bookingId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=!",
-        "app/account/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!"
+        "app/account/reservations/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
+        "app/account/page": "action-browser",
         "app/cabins/[cabinId]/page": "action-browser",
-        "app/account/reservations/page": "action-browser",
-        "app/account/reservations/edit/[bookingId]/page": "rsc",
-        "app/account/page": "action-browser"
+        "app/account/reservations/page": "action-browser"
       }
     },
     "3803f78990425140263a30ef4be17eae8df63522": {
       "workers": {
+        "app/account/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!",
         "app/cabins/[cabinId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!",
-        "app/account/reservations/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!",
-        "app/account/reservations/edit/[bookingId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=!",
-        "app/account/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!"
+        "app/account/reservations/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
+        "app/account/page": "action-browser",
         "app/cabins/[cabinId]/page": "action-browser",
-        "app/account/reservations/page": "action-browser",
-        "app/account/reservations/edit/[bookingId]/page": "rsc",
-        "app/account/page": "action-browser"
+        "app/account/reservations/page": "action-browser"
       }
     },
     "5b7c567e75679680236a129f9fff440995f7f3b8": {
       "workers": {
+        "app/account/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!",
         "app/cabins/[cabinId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!",
-        "app/account/reservations/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!",
-        "app/account/reservations/edit/[bookingId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=!",
-        "app/account/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!"
+        "app/account/reservations/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
+        "app/account/page": "action-browser",
         "app/cabins/[cabinId]/page": "action-browser",
-        "app/account/reservations/page": "action-browser",
-        "app/account/reservations/edit/[bookingId]/page": "rsc",
-        "app/account/page": "action-browser"
+        "app/account/reservations/page": "action-browser"
       }
     },
     "9d581c31cf5320f384791921d2c58b93f9b9f695": {
       "workers": {
+        "app/account/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!",
         "app/cabins/[cabinId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!",
-        "app/account/reservations/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!",
-        "app/account/reservations/edit/[bookingId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=!",
-        "app/account/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!"
+        "app/account/reservations/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fusman%2FDesktop%2F21-the-wild-oasis-website%2Fapp%2F_lib%2Factions.js%22%2C%5B%22SignOutAction%22%2C%22updateReservation%22%2C%22createBooking%22%2C%22deleteBooking%22%2C%22SignInAction%22%2C%22updateGuest%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
+        "app/account/page": "action-browser",
         "app/cabins/[cabinId]/page": "action-browser",
-        "app/account/reservations/page": "action-browser",
-        "app/account/reservations/edit/[bookingId]/page": "rsc",
-        "app/account/page": "action-browser"
+        "app/account/reservations/page": "action-browser"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "swFGPUKUQZFmjOD6HmQVJWJ8NBdogA857xVR35zwmI0="
+  "encryptionKey": "VPtTHhsM12eUi+R1hfiGcJgXo8rlq6LTRnnYJHVqox0="
 }

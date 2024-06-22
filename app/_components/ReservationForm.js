@@ -1,6 +1,6 @@
 "use client";
 
-import { differenceInDays } from "date-fns";
+import { differenceInDays, formatISO, isValid } from "date-fns";
 import { useReservation } from "./ReservationContext";
 import { createBooking } from "../_lib/actions";
 import SubmitButton from "./SubmitButton";
@@ -9,10 +9,24 @@ function ReservationForm({ cabin, user }) {
   const { range, resetRange } = useReservation();
   const { maxCapacity, regularPrice, discount, id } = cabin;
 
-  const startDate = range.from;
-  const endDate = range.to;
+  const isValidStartDate = range?.from && isValid(new Date(range.from));
+  const isValidEndDate = range?.to && isValid(new Date(range.to));
 
-  const numNights = differenceInDays(endDate, startDate);
+  const startDate = isValidStartDate
+    ? formatISO(new Date(range.from), { representation: "date" })
+    : null;
+  const endDate = isValidEndDate
+    ? formatISO(new Date(range.to), { representation: "date" })
+    : null;
+  const numNights =
+    isValidStartDate && isValidEndDate
+      ? differenceInDays(new Date(endDate), new Date(startDate))
+      : 0;
+
+  // const startDate = range.from;
+  // const endDate = range.to;
+
+  // const numNights = differenceInDays(endDate, startDate);
   const cabinPrice = numNights * (regularPrice - discount);
 
   const bookingData = {
